@@ -32,52 +32,27 @@ nav a{
     text-decoration: none;
 }
 
-.productos{
+
+.habilidades{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.productos li{
+.habilidades li{
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 15%;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-color: #000000;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
 }
 
-.productos li:hover{
-    border-color: #c78c19;
 
+.imaghabilidades{
+    width: 100%;
 }
 
-.productos li:active{
-    border-color: #088c19 ;
-}
-
-.productos li:hover h2{
-    font-size: 33px;
-}
-
-.productos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.producto-descripcion{
-    font-size: 18px;
-}
-
-.producto-precio{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
+.imaghabilidades:hover{
+    width: 110%;
 }
 
 nav a:hover{
@@ -214,6 +189,7 @@ td, th{
     margin: 1em auto;
 }
 /*Redes*/
+
 .social-icons
 {
   padding-left:0;
@@ -234,11 +210,11 @@ td, th{
   font-size:13px
 }
 .social-icons a{
-  background-color:#eceeef;
+  background-color:#a0cbe0;
   color:#818a91;
   font-size:16px;
   display:inline-block;
-  line-height:44px;
+  line-height:44px; 
   width:44px;
   height:44px;
   text-align:center;
@@ -272,9 +248,9 @@ td, th{
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.hv:hover
 {
-  background-color:#ea4c89
+  background-color:#ea7e4c
 }
 @media (max-width:767px)
 {
