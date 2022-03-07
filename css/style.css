@@ -43,9 +43,37 @@ nav a{
     display: inline-block;
     text-align: center;
     width: 15%;
-    vertical-align: top;
+    vertical-align: top;   
+    margin-right: 40px; 
 }
 
+.experiencia{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.experiencia li{
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+    vertical-align: top;   
+    margin-right: 40px; 
+}
+
+.hobbies, .cursos{
+    width: 940px;
+    margin: 10 auto;
+    padding: 30px;
+    padding-left: 170px;
+}
+
+.hobbies li, .cursos li{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    vertical-align: top;
+}
 
 .imaghabilidades{
     width: 100%;
@@ -53,6 +81,15 @@ nav a{
 
 .imaghabilidades:hover{
     width: 110%;
+}
+
+.imagformacion:hover{
+    width: 120%;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.imagformacion{
+    width: 100%;
 }
 
 nav a:hover{
@@ -148,9 +185,10 @@ td, th{
 }
 
 .principal p{
-    line-height: 25px;
+    line-height: 9;
     text-align: justify;
     margin: 0 0 1em;
+    display:inline-block;
 }
 
 .principal strong{
@@ -165,7 +203,25 @@ td, th{
     font-style: italic;
 }
 
-.utensilios{
+.principal1 p{
+    text-align: justify;
+    margin: 0 0 1em;
+    display:inline-block;
+}
+
+.principal1 strong{
+    line-height: 25px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.principal1 em{
+    line-height: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.fotoperfil{
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
