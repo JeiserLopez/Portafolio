@@ -33,13 +33,13 @@ nav a{
 }
 
 
-.habilidades{
+.habilidades, .hobbies{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.habilidades li{
+.habilidades li, .hobbies li{
     display: inline-block;
     text-align: center;
     width: 15%;
@@ -65,7 +65,7 @@ nav a{
     width: 940px;
     margin: 10 auto;
     padding: 30px;
-    padding-left: 170px;
+    padding-left: 180px;
 }
 
 .hobbies li, .cursos li{
