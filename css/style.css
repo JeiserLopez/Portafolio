@@ -61,14 +61,14 @@ nav a{
     margin-right: 40px; 
 }
 
-.hobbies, .cursos{
+.cursos{
     width: 940px;
     margin: 10 auto;
     padding: 30px;
     padding-left: 180px;
 }
 
-.hobbies li, .cursos li{
+.cursos li{
     display: inline-block;
     text-align: center;
     width: 15%;
