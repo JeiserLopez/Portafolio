@@ -1,17 +1,60 @@
 body{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;  
 }
 
 header{
-    background-color: #BBBBBB;
-    padding: 50px 0;
+   padding: 5px 0;
+}
+
+.star1{
+    position: absolute;
+    left: 60px;
+    right: 40px;
+    top: 5px;
+    bottom: 20px;
+    height: 14px;
+    width: 14px;
+}
+
+.star2{
+    position: absolute;
+    left: 70px;
+    right: 40px;
+    top: 3px;
+    bottom: 20px;
+    height: 8px;
+    width: 8px;
+}
+
+.star3{
+    position: absolute;
+    left: 70px;
+    right: 40px;
+    top: 12px;
+    bottom: 20px;
+    height: 8px;
+    width: 8px;
+}
+
+.nombreprincipal{
+    width: 102px;
+    height: 19px;
+    left: 60px;
+    top: 2.5px;
+}
+
+.caja-izquierda{
+    width: 240px;
+    margin-left: 80px;
+    margin-top: 0;
 }
 
 .caja{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+    position: static;
+    width: 67px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
 }
 
 nav{
@@ -26,26 +69,196 @@ nav li{
 }
 
 nav a{
-    text-transform: uppercase;
     color: #000000;
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
 }
 
+.texto-principal{
+    position: static;
+    width: 751px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    color: #464646;
 
-.habilidades, .hobbies{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    text-align: left;
 }
 
-.habilidades li, .hobbies li{
-    display: inline-block;
+.img-principal{
+    position: static;
+    width: 100px;
+    height: 200px;
+    left: 768px;
+    top: 0px;
+
+    background-image: url("../imagenes/foto.png");
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.principal-texto{
+    position: static;
+width: 751px;
+height: 52px;
+left: 0px;
+top: 146px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.h2-texto{
+    position: static;
+    width: 137px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+    color: #464646;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.h2-texto1{
     text-align: center;
-    width: 15%;
-    vertical-align: top;   
-    margin-right: 80px; 
+    position: static;
+    width: 940px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+    color: #464646;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.sobremi{
+    position: static;
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    top: 54px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 16px;
+    line-height: 19px;
+
+/* Preto/100% */
+
+    color: #464646;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.firma{
+    position: static;
+    width: 180px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+
+    background: url(../imagenes/firmaJeiser.jpg);
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.skill,.hobbies{
+    background: #FFFFFF;
+
+/* Inside auto layout */
+    display: flex;
+    flex: none;
+    order: 5;
+    flex-grow: 0;   
+    margin: 0px 16px;
+}
+
+.img-skill{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
 }
 
 .experiencia{
@@ -84,8 +297,7 @@ nav a{
     width: 110%;
 }
 
-.imagformacion:hover{
-    width: 120%;
+.img-skill:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
@@ -172,10 +384,8 @@ td, th{
 }
 
 /*CSS home*/
-
-.banner{
-    width: 80%;
-    margin-left: 40px;
+.principal{
+    display: flex;
 }
 
 .titulo-principal{
@@ -183,13 +393,6 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-}
-
-.principal p{
-    line-height: 9;
-    text-align: justify;
-    margin: 0 0 1em;
-    display:inline-block;
 }
 
 .principal strong{
