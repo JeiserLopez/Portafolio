@@ -392,11 +392,10 @@ margin: 30px 60px;
 
 .experiencia{
     position: static;
-    width: 600px;
+    width: 700px;
     height: 406px;
     left: 0px;
     top: 0px;
-    background: url(../imagenes/experiencia1.png);
     border-radius: 0px;
     
     /* Inside auto layout */
