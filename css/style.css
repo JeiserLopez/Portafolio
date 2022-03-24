@@ -409,12 +409,10 @@ margin: 30px 60px;
 
 .experiencia1{
     position: static;
-    width: 600px;
-    height: 406px;
+    width: 700px;
+    height: 200px;
     left: 200px;
     top: 0px;
-    
-    background: url(../imagenes/experiencia2.png);
     border-radius: 0px;
     
     /* Inside auto layout */
@@ -600,6 +598,179 @@ margin: 0px 10px;
 .imagformacion{
     width: 100%;
 }
+
+
+.section-contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4px;
+
+    position: static;
+    width: 960px;
+    height: 570px;
+    left: 0px;
+    top: 0px;
+
+/* Azul/10% */
+
+    background: #EAF2FD;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.img-phone{
+    position: static;
+    width: 400px;
+    height: 500px;
+    left: 0px;
+    top: 65.5px;
+    
+    background: #EDEDED;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.textos-contacto{
+    position: static;
+    width: 560px;
+    height: 80px;
+    left: 0px;
+    top: 46px;
+
+}
+
+.texto-principal-contacto{
+    position: static;
+    width: 40px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+    color: #464646;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.texto-segundario-contacto{
+    position: static;
+    width: 500px;
+    height: 38px;
+    left: 0px;
+    top: 46px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+/* Preto/100% */
+
+    color: #464646;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 6px 0px; 
+    margin-left: 10px;
+}
+
+
+
+.formulario{
+    
+}
+
+.form-contacto{
+    
+}
+
+.textos-form{
+    position: static;
+    width: 500px;
+    height: 56px;
+    left: calc(50% - 656px/2);
+    top: 0px;
+    
+    /* Preto/branco */
+    
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 2px 0px;
+
+}
+
+.label-form{
+    position: static;
+width: 560px;
+height: 16px;
+left: calc(50% - 632px/2);
+top: 0px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Preto/50% */
+
+color: #A2A2A2;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+margin-bottom: 1px;
+}
+
+
+
 
 nav a:hover{
     color: #c78c19;
