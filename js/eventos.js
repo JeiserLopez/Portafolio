@@ -7,7 +7,6 @@ function escribiendoLetras(id,e) {
     let texto = document.getElementById(id);
     texto.classList.add('escribiendo');
     let tecla = (document.all) ? e.keyCode : e.which;
-    console.log(tecla);
     if (tecla == 8) {
         return true;
     }
@@ -26,12 +25,12 @@ function fueraFoco(id) {
     if (texto.value == 0){
         texto.classList.add('vacio');
     }
-    else
+    else if (texto != 'email')
     {
         texto.classList.add('lleno');
     }
 }
 
 function enviarFormulario(){
-    console.log("Enviar");
+    
 }

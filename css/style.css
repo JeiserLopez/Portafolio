@@ -780,6 +780,11 @@ margin: 0px 10px;
     border-bottom: solid rgb(51, 206, 51);
 }
 
+.spanVisible{
+    font-style: italic;
+    color: darkred;
+}
+
 .label-form{
     position: static;
     width: 560px;

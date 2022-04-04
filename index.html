@@ -145,14 +145,22 @@
            <div class="formulario">
                <form class="form-contacto">
                 <label for="nombre" class="label-form">Nombre: </label>
-                <input type="text" class="textos-form" id="nombre" onclick="setFocus('nombre')" onkeypress="return escribiendoLetras('nombre',event)" onblur="fueraFoco('nombre')">
+                <input title="Se necesita un nombre" type="text" class="textos-form" 
+                id="nombre" onclick="setFocus('nombre')" 
+                onkeypress="return escribiendoLetras('nombre',event)" 
+                onblur="fueraFoco('nombre')" required placeholder="Ingrese su nombre y apellido"
+                minlength="20" maxlength="40">       
                 <label for="email" class="label-form">Email: </label>
-                <input type="email" class="textos-form" id="email" onclick="setFocus('email')" onkeypress="escribiendo('email',event)"  onblur="fueraFoco('email')">
+                <input type="email" class="textos-form" id="email" onclick="setFocus('email')"
+                 onkeypress="escribiendo('email',event)"  onblur="fueraFoco('email')"  
+                 required placeholder="Ingrese su email" minlength="20" maxlength="40">
                 <label for="asunto" class="label-form">Asunto: </label>
-                <input type="text" class="textos-form" id="asunto" onclick="setFocus('asunto')" onkeypress="escribiendo('asunto',event)"  onblur="fueraFoco('asunto')">
+                <input type="text" class="textos-form" id="asunto" onclick="setFocus('asunto')" 
+                required placeholder="Ingrese el asunto" minlength="10" maxlength="30" onkeypress="escribiendo('asunto',event)"  onblur="fueraFoco('asunto')">
                 <label for="mensaje" class="label-form">Mensaje: </label>
-                <textarea class="textos-form" id="mensaje" onclick="setFocus('mensaje')" onkeypress="escribiendo('mensaje',event)"  onblur="fueraFoco('mensaje')"></textarea>
-                <button type="button" id="boton-enviar" name="btnenviar" class="btn-generico" onclick="enviarFormulario()">Enviar mensaje</button>
+                <textarea class="textos-form" id="mensaje" onclick="setFocus('mensaje')" 
+                required placeholder="Ingrese su mensaje" minlength="50" maxlength="100" onkeypress="escribiendo('mensaje',event)"  onblur="fueraFoco('mensaje')"></textarea>
+                <button type="submit" id="boton-enviar" name="btnenviar" class="btn-generico" onclick="enviarFormulario()">Enviar mensaje</button>
             </form>
            </div>
             
